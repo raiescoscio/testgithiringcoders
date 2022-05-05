@@ -1,0 +1,36 @@
+*{
+    
+    
+    color: rgb(31, 119, 119);
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+body{
+    background-image: linear-gradient(90deg, #1164bc, #0080ce, #0094b3, #00a172, #0aa810);
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.flex div{
+    /*border: 1px solid rgb(31, 119, 119);*/
+    border-radius: 20px;
+    padding: 15px 10px;
+    margin: 15px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.712);
+}
+
+.flex img{
+    max-width: 200px;
+    width: 120px;
+    height: 80px;
+}
+
+.flex p{
+    width: 150px;
+    font-size: 11px;
+}
